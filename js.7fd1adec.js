@@ -25,4 +25,4 @@ var t;!function(e,n){"object"==typeof exports&&"object"==typeof module?module.ex
 },{}],"Rgmk":[function(require,module,exports) {
 "use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0}),require("popper.js");var r=e(require("jquery"));require("bootstrap");var t=e(require("./game")),a=require("./viewController");function l(){var e=document.querySelector(".card_board");new t.default(e,6).start()}var o=new a.ViewController(".nav-link",".pagina");o.listen(),document.getElementById("start").onclick=l,r.default(".navbar-collapse a").click(function(){r.default(".navbar-collapse").collapse("hide")});
 },{"popper.js":"loUd","jquery":"juYr","bootstrap":"BQpi","./game":"v72I","./viewController":"BAye"}]},{},["Rgmk"], null)
-//# sourceMappingURL=/js.7fd1adec.js.map
+//# sourceMappingURL=js.7fd1adec.js.map
